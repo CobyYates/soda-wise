@@ -74,10 +74,8 @@ export default {
   }),
   methods: {
     quantityColor(value) {
-      if (value < 25) return "red";
-      if (value >= 25 && value < 50) return "orange";
-      if (value >= 50 && value < 75) return "yellow";
-      if (value >= 75) return "green";
+      if (value <= 25) return "red";
+      else return "green";
     }
   }
 };

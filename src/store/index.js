@@ -13,7 +13,7 @@ export default new Vuex.Store({
         productId: 1,
         name: "Coca-Cola",
         logo: "https://www.coca-cola.com/content/dam/brands/tw/coca-cola/image/coke-logo.png",
-        quantityRemaining: 75,
+        quantityRemaining: 25,
         address: "123 1st St.",
         location: "Salt Lake City",
         region: "Utah",
